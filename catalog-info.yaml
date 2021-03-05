@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-docs-component"
+  description: "test"
+  annotations:
+    github.com/project-slug: tribats/backstage-test-docs-component
+    backstage.io/techdocs-ref: url:https://github.com/tribats/backstage-test-docs-component
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "tribats"
